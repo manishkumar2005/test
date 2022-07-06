@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #fafafb;
+    z-index: -1;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+.navBar {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    font-size: 1.8rem;
+    height: 3rem;
+    align-items: center;
+    padding: 3.4rem 1.5rem;
+    max-width: 100%;
+    background-color: #fff;
+    color: #737373;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.02);
+
+}
+
+.my-img {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.logo {
+    border: 2px solid #dc2626;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    color: #404040;
+}
+
+.navBar-Copy {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+
+}
+
+.logos {
+    height: 3.4rem;
+    width: 3.4rem;
+    color: #dc2626;
+}
+
+header {
+    height: 80%;
+}
+
+
+
+
+/* Section-1*/
+
+.section-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    /* border: 2px solid blue; */
+    /* width: 120rem; */
+    justify-content: center;
+    margin: auto;
+    max-width: 85%;
+    align-items: center;
+    padding: 4rem 0 0 0;
+    background-color: #fff;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.05);
+}
+
+
+.main-Heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 3.8rem;
+}
+
+.Primary-heading {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+
+.location{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    align-items: center;
+    text-align: center;
+}
+
+.location-img{
+    height: 2rem;
+    width: 2rem;
+    color: #dc2626;
+    margin-right: 0.8rem;
+}
+
+.turtsery{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: 50%;
+}
+
+
+
+
+.First-Part {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 2px solid black; */
+    padding: 2rem 5rem;
+}
+
+.nav-Img {
+    height: 400px;
+    width: 400px;
+
+}
+
+.img {
+    text-align: end;
+    /* border: 2px solid palegoldenrod; */
+}
+
+
+/*  */
+
+
+.section-2 {
+    border: 2px solid navajowhite;
+    max-width: 85%;
+    margin: 3rem auto;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid green;
+    margin: 2rem 0;
+}
+
+.first-Box {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 2rem;
+    border: 2px solid grey;
+    padding: 2rem;
+}
